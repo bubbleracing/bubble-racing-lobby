@@ -2,15 +2,18 @@
   "name": "bubble-racing-lobby",
   "version": "1.0.0",
   "description": "Lobby API for Bubble Racing",
+  "repository": "https://github.com/bubbleracing/bubble-racing-lobby",
   "main": "index.js",
   "dependencies": {
+    "@koa/router": "^9.4.0",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "redis": "^3.0.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jacob Grahn",
   "license": "MIT"
 }
